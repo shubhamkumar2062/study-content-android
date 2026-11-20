@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="intro_1_title">Notes that make sense</string>
+    <string name="intro_1_body">Every unit explained in plain words, with diagrams you can zoom, highlight and listen to.</string>
+    <string name="intro_2_title">Practise what\'s likely to come</string>
+    <string name="intro_2_body">Questions rated by how often they appear, MCQs with explanations, flashcards and full mock papers.</string>
+    <string name="intro_3_title">Works without internet</string>
+    <string name="intro_3_body">Everything is saved on your phone. The app only checks for new notes once a day, using almost no data.</string>
+    <string name="intro_next">Next</string>
+    <string name="intro_skip">Skip</string>
+    <string name="intro_get_started">Choose my course</string>
+    <string name="picker_title_stream">What are you studying?</string>
+    <string name="picker_title_programme">Which course?</string>
+    <string name="picker_title_scheme">Which syllabus?</string>
+    <string name="picker_title_term">Which %1$s are you in?</string>
+    <string name="term_kind_semester">semester</string>
+    <string name="term_kind_year">year</string>
+    <string name="picker_coming_soon">Coming soon</string>
+    <plurals name="picker_programmes">
+        <item quantity="one">%1$d course</item>
+        <item quantity="other">%1$d courses</item>
+    </plurals>
+    <string name="picker_subjects_ready">%1$d of %2$d subjects ready</string>
+    <string name="picker_back">Back</string>
+    <string name="disclaimer_title">Before you start</string>
+    <string name="disclaimer_body">StudyDesk is an independent study app. It is not made by, or connected to, any college, university or exam board.\n\nThe \"chance\" ratings on questions are estimates from past paper patterns, not a promise of what will be asked.\n\nAlways check exam dates on the official website linked in the app.</string>
+    <string name="disclaimer_accept">I understand, let\'s start</string>
+    <string name="browse_title">Browse</string>
+    <string name="browse_search_hint">Search subjects or codes</string>
+    <string name="browse_no_match_title">No subjects match</string>
+    <string name="browse_no_match_body">Try a subject code like BP301T, or a word from the title.</string>
+    <string name="course_status_to_confirm">Subject list still being checked against the official syllabus</string>
+    <string name="subject_ready">Notes ready</string>
+    <string name="subject_coming_soon">Coming soon</string>
+    <string name="subject_kind_practical">Practical</string>
+    <string name="subject_kind_elective">Elective</string>
+    <string name="subject_kind_project">Project</string>
+    <string name="subject_kind_training">Training</string>
+    <string name="course_not_listed_title">Subjects not listed yet</string>
+    <string name="course_not_listed_body">We haven\'t added this course\'s subjects yet. They\'ll appear here automatically once they\'re ready.</string>
+    <string name="change_course_title">Change course</string>
+    <string name="loading_error_title">Couldn\'t open the course list</string>
+    <string name="loading_error_body">Something went wrong reading the saved content. Try again, or reinstall the app if it keeps happening.</string>
+    <string name="action_retry">Try again</string>
+</resources>

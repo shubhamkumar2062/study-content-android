@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings_title">Settings</string>
+    <string name="settings_back">Back</string>
+    <string name="settings_section_course">Your course</string>
+    <string name="settings_change_course">Change course</string>
+    <string name="settings_no_course">No course chosen</string>
+    <string name="settings_section_look">Appearance</string>
+    <string name="settings_theme">Theme</string>
+    <string name="settings_theme_system">System</string>
+    <string name="settings_theme_light">Light</string>
+    <string name="settings_theme_dark">Dark</string>
+    <string name="settings_dynamic_color">Colours from wallpaper</string>
+    <string name="settings_dynamic_color_hint">Android 12 and newer</string>
+    <string name="settings_section_reading">Reading</string>
+    <string name="settings_text_size">Text size</string>
+    <string name="settings_text_size_value">%1$d%%</string>
+    <string name="settings_serif">Book-style font</string>
+    <string name="settings_keep_screen_on">Keep screen on while reading</string>
+    <string name="settings_section_data">Content and data</string>
+    <string name="settings_check_now">Check for new content</string>
+    <string name="settings_checking">Checking…</string>
+    <string name="settings_last_checked">Last checked %1$s</string>
+    <string name="settings_last_updated">Last updated %1$s</string>
+    <string name="settings_content_version">Content version: %1$s</string>
+    <string name="settings_wifi_images">Download images on Wi-Fi only</string>
+    <string name="settings_wifi_images_hint">Notes text always downloads; pictures wait for Wi-Fi</string>
+    <string name="settings_storage">Saved on this phone: %1$s</string>
+    <string name="settings_section_about">About</string>
+    <string name="settings_about">About StudyDesk</string>
+    <string name="settings_check_cooldown">Just checked. Try again in a minute.</string>
+    <string name="about_title">About</string>
+    <string name="about_independent_title">Independent app</string>
+    <string name="about_independent_body">StudyDesk is not made by, or connected to, any college, university or exam board. Exam dates are copied from official date sheets; always confirm them on the official website.</string>
+    <string name="about_probability_title">About the \"chance\" ratings</string>
+    <string name="about_probability_body">High, medium and low chance are estimates based on how often a kind of question appears in past university papers and on the syllabus weight. They are a guide for revision, not a promise.</string>
+    <string name="about_privacy_title">Your privacy</string>
+    <string name="about_privacy_body">No account, no ads, no tracking. Your progress, highlights and notes stay on your phone. The app only downloads study content from its content server.</string>
+    <string name="about_sources_title">Sources</string>
+    <string name="about_sources_body">Subject lists follow the official syllabi named on each course. Notes and questions are written for this app.</string>
+    <string name="about_licences_title">Open-source software</string>
+    <string name="about_licences_body">Built with Android Jetpack (Apache 2.0), Kotlin and kotlinx libraries (Apache 2.0), Ktor (Apache 2.0), OkHttp (Apache 2.0), Coil (Apache 2.0), Dagger Hilt (Apache 2.0) and commonmark-java (BSD 2-Clause).</string>
+    <string name="about_version">Version %1$s</string>
+</resources>

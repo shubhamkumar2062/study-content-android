@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="home_greeting_morning">Good morning</string>
+    <string name="home_greeting_afternoon">Good afternoon</string>
+    <string name="home_greeting_evening">Good evening</string>
+    <string name="home_search">Search</string>
+    <string name="home_settings">Settings</string>
+    <string name="home_change_course">Change</string>
+    <string name="home_your_subjects">Your subjects</string>
+    <string name="home_next_exams">Next exams</string>
+    <string name="home_see_all">See all</string>
+    <string name="home_continue">Continue reading</string>
+    <string name="home_revise_title">Revise today</string>
+    <plurals name="home_revise_due">
+        <item quantity="one">%1$d flashcard is due</item>
+        <item quantity="other">%1$d flashcards are due</item>
+    </plurals>
+    <string name="home_revise_none">No cards due. Mark questions \"revise again\" to build your deck.</string>
+    <string name="home_revise_start">Start</string>
+    <string name="home_quiz_title">Quick quiz</string>
+    <string name="home_quiz_body">10 random MCQs from %1$s</string>
+    <string name="home_quiz_start">Play</string>
+    <string name="home_days_left">%1$d</string>
+    <plurals name="home_days_label">
+        <item quantity="one">day</item>
+        <item quantity="other">days</item>
+    </plurals>
+    <string name="home_today">Today</string>
+    <string name="home_tentative">Tentative</string>
+    <string name="home_no_exams">No upcoming exam dates for your course yet.</string>
+    <string name="home_ready">Ready</string>
+    <string name="home_coming_soon">Coming soon</string>
+    <string name="home_percent_done">%1$d%% read</string>
+    <string name="home_no_course_title">Pick your course</string>
+    <string name="home_no_course_body">Choose your course and semester to see your subjects here.</string>
+    <string name="home_pick_course">Choose course</string>
+    <string name="home_update_app">Update app</string>
+    <string name="home_offline">You\'re offline · showing saved content · updated %1$s</string>
+    <string name="home_offline_bundled">You\'re offline · showing the notes that came with the app</string>
+    <string name="home_exam_time">%1$s · %2$s–%3$s</string>
+    <string name="home_change_course_long">Change course</string>
+    <string name="home_stat_ready_value">%1$d/%2$d</string>
+    <string name="home_stat_ready">subjects ready</string>
+    <plurals name="home_stat_exam">
+        <item quantity="one">day to your next exam</item>
+        <item quantity="other">days to your next exam</item>
+    </plurals>
+    <string name="home_stat_exam_today">your next exam</string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="search_hint">Search notes, questions and MCQs</string>
+    <string name="search_back">Back</string>
+    <string name="search_clear">Clear</string>
+    <string name="search_kind_note">Notes</string>
+    <string name="search_kind_question">Questions</string>
+    <string name="search_kind_mcq">MCQs</string>
+    <string name="search_kind_practical">Practicals</string>
+    <string name="search_preparing">Getting search ready…</string>
+    <string name="search_start_title">Search everything on your phone</string>
+    <string name="search_start_body">Try a topic like \"Friedel–Crafts\", \"iodine value\" or \"Baeyer strain\". Search works offline.</string>
+    <string name="search_none_title">Nothing found</string>
+    <string name="search_none_body">Check the spelling or try a shorter word.</string>
+</resources>

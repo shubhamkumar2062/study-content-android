@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="state_loading">Loading</string>
+    <string name="probability_high">High chance</string>
+    <string name="probability_medium">Medium chance</string>
+    <string name="probability_low">Low chance</string>
+    <string name="sync_offline">You\'re offline. Showing what\'s saved on your phone.</string>
+    <string name="sync_timeout">The server is taking longer than usual. Your saved content is still here.</string>
+    <string name="sync_failed_kept">Couldn\'t update. Your saved content is still here.</string>
+    <string name="sync_storage_full">Not enough space. Free up %1$s to download this.</string>
+    <string name="sync_up_to_date">Everything is up to date</string>
+    <plurals name="sync_updated">
+        <item quantity="one">Updated %1$d file · %2$s</item>
+        <item quantity="other">Updated %1$d files · %2$s</item>
+    </plurals>
+    <string name="sync_update_app">New content needs a newer version of the app.</string>
+    <string name="time_never">never</string>
+    <string name="action_retry">Try again</string>
+    <string name="action_update_app">Update app</string>
+    <string name="unreviewed_tag">Not yet checked</string>
+    <string name="unreviewed_title">Not checked by a teacher yet</string>
+    <string name="unreviewed_body">These notes may contain mistakes. Confirm anything important with your textbook or teacher.</string>
+</resources>

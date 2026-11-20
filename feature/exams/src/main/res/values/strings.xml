@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="exams_title">Exams</string>
+    <string name="exams_mine">My course</string>
+    <string name="exams_all">All date sheets</string>
+    <string name="exams_show_past">Show past papers</string>
+    <string name="exams_official">Official date sheet</string>
+    <string name="exams_calendar">Add to calendar</string>
+    <string name="exams_tentative">Tentative</string>
+    <string name="exams_final">Final</string>
+    <string name="exams_revised">Revised</string>
+    <string name="exams_reappear">Re-appear</string>
+    <string name="exams_source">Copied from the official date sheet, last checked %1$s. Always confirm dates on the official website.</string>
+    <string name="exams_published">Published %1$s</string>
+    <string name="exams_papers">%1$d papers</string>
+    <string name="exams_days_left">in %1$d days</string>
+    <string name="exams_tomorrow">tomorrow</string>
+    <string name="exams_today">today</string>
+    <string name="exams_done">done</string>
+    <string name="exams_none_title">No dates for your course yet</string>
+    <string name="exams_none_body">When your board publishes a date sheet for your semester, it appears here. Meanwhile, see all date sheets.</string>
+    <string name="exams_see_all">See all date sheets</string>
+    <string name="exams_no_course">Choose your course in Settings to see your own dates.</string>
+    <string name="exams_calendar_note">From %1$s (%2$s). Check the official date sheet before the exam: %3$s</string>
+    <string name="exams_no_calendar">No calendar app found on this phone.</string>
+    <string name="exams_no_browser">No browser found to open the date sheet.</string>
+    <string name="exams_session_papers">Papers in this date sheet</string>
+    <string name="exams_load_error_title">Couldn\'t load date sheets</string>
+    <string name="exams_load_error_body">The saved copy couldn\'t be read. Check for new content in Settings.</string>
+    <string name="exams_paper_time">%1$s–%2$s</string>
+</resources>
