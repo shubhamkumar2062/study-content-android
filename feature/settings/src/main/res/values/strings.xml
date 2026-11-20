@@ -40,5 +40,9 @@
     <string name="about_sources_body">Subject lists follow the official syllabi named on each course. Notes and questions are written for this app.</string>
     <string name="about_licences_title">Open-source software</string>
     <string name="about_licences_body">Built with Android Jetpack (Apache 2.0), Kotlin and kotlinx libraries (Apache 2.0), Ktor (Apache 2.0), OkHttp (Apache 2.0), Coil (Apache 2.0), Dagger Hilt (Apache 2.0) and commonmark-java (BSD 2-Clause).</string>
+    <string name="about_developer_title">Made by</string>
+    <string name="about_developer_body">Designed and built by Shubham Kumar, a Mobile Software Engineer (SDE-3) with over 5 years of experience shipping iOS and Android apps. StudyDesk was crafted end to end — offline notes, spaced revision, MCQs and full mock papers.</string>
+    <string name="about_inspiration_title">Why this app exists</string>
+    <string name="about_inspiration_body">StudyDesk began as a way to help a close friend get through her exams — turning a scattered syllabus into notes that are clear, calm and genuinely exam-ready. It is also a quiet proof of what careful engineering can do when it is built for someone who matters.</string>
     <string name="about_version">Version %1$s</string>
 </resources>

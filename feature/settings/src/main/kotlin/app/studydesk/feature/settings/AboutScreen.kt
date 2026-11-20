@@ -42,6 +42,8 @@ internal fun AboutScreen(onBack: () -> Unit) {
             verticalArrangement = Arrangement.spacedBy(12.dp),
         ) {
             listOf(
+                R.string.about_developer_title to R.string.about_developer_body,
+                R.string.about_inspiration_title to R.string.about_inspiration_body,
                 R.string.about_independent_title to R.string.about_independent_body,
                 R.string.about_probability_title to R.string.about_probability_body,
                 R.string.about_privacy_title to R.string.about_privacy_body,

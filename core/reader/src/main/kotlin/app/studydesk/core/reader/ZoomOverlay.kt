@@ -37,7 +37,10 @@ import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.input.pointer.positionChanged
 import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.layout.layout
 import androidx.compose.ui.layout.onSizeChanged
+import androidx.compose.ui.platform.LocalConfiguration
+import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.IntSize
 import androidx.compose.ui.unit.dp
@@ -68,6 +71,8 @@ internal fun ZoomOverlay(
     val dismissDrag = remember { Animatable(0f) }
     var container by remember { mutableStateOf(IntSize.Zero) }
     var contentSize by remember { mutableStateOf(IntSize.Zero) }
+    val density = LocalDensity.current
+    val screenWidthPx = with(density) { LocalConfiguration.current.screenWidthDp.dp.roundToPx() }
 
     fun clamp(o: Offset, s: Float): Offset {
         val maxX = maxOf(0f, (contentSize.width * s - container.width) / 2f)
@@ -138,8 +143,26 @@ internal fun ZoomOverlay(
             Modifier
                 // Only an image may exceed the screen (shown at natural size and panned). A table or
                 // text diagram scrolls horizontally inside itself, and a horizontal scroller measured
-                // with an unbounded width crashes, so keep those bounded to the container width.
-                .then(if (block is Block.Image) Modifier.wrapContentSize(unbounded = true) else Modifier.fillMaxWidth())
+                // with an unbounded width crashes, so keep those bounded to the window width. The app's
+                // SharedTransitionLayout runs a lookahead pass that can hand this overlay an infinite
+                // max width, where fillMaxWidth() is a no-op, so pin the width explicitly instead.
+                .then(
+                    if (block is Block.Image) {
+                        Modifier.wrapContentSize(unbounded = true)
+                    } else {
+                        Modifier.layout { measurable, constraints ->
+                            val maxW = when {
+                                constraints.hasBoundedWidth -> constraints.maxWidth
+                                container.width > 0 -> container.width
+                                else -> screenWidthPx
+                            }
+                            val placeable = measurable.measure(
+                                constraints.copy(minWidth = minOf(constraints.minWidth, maxW), maxWidth = maxW),
+                            )
+                            layout(placeable.width, placeable.height) { placeable.place(0, 0) }
+                        }
+                    },
+                )
                 .onSizeChanged { contentSize = it }
                 .graphicsLayer {
                     scaleX = scale.value
